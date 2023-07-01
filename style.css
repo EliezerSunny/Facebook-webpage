@@ -1,0 +1,757 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #0a0a0a;
+	color: white;
+}
+
+.left-side, .main-content, .main-post, .right-side{
+	display: inline-block;
+
+}
+
+.left{
+	flex-basis: 25%;
+	position: sticky;
+	top: 0px;
+	align-self: flex-start;
+}
+.left-side{
+	margin: 20px 40px;
+	width: 19%;
+	float: left;
+}
+
+.left-side input[type=submit]:hover{
+	background-color: rgb(54, 54, 54, 0.5);
+	transition: 0.5s;
+	
+}
+.profile-link a{
+	text-decoration: none;
+}
+.profile-link img{
+	border-radius: 25px;
+	width: 35px;
+	float: left;
+	margin-right: 12px;
+
+}
+.profile-link p{
+	color: white;
+	
+
+}
+.profile-link div p{
+	margin-top: 50px;
+}
+
+
+.right-side{
+	margin: 20px 40px;
+	width: 19%;
+	float: right;
+
+	flex-basis: 25%;
+	position: sticky;
+	top: 0px;
+	align-self: flex-start;
+}
+
+
+nav{
+	background-color: rgb(255, 255, 255, 0.1);
+	width: 100%;
+	
+}
+.head-text{
+	padding: 15px;
+}
+.head-text h5{
+	float: left;
+	margin-left: 15px;
+	font-size: 15px;
+	margin-top: 4px;
+	font-weight: 400;
+	
+}
+.head-text .top-button{
+	float: right;
+	margin-right: 15px;
+}
+.top-button input[type=submit]{
+	border: 1px solid white;
+	background-color: #1b1e23;
+	padding: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+	border-radius: 3px;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+.header{
+	padding: 15px;
+}
+.header h4{
+	font-size: 27px;
+	float: left;
+}
+.header-right {
+	float: right;
+	margin-top: -3px;
+}
+.header-right i{
+	background-color: rgb(255, 255, 255, 0.1);
+	padding: 10px;
+	border-radius: 50px;
+	margin-right: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+
+}
+.header-right a{
+	text-decoration: none;
+	color: white;
+}
+.main-content{
+	margin-top: 0px;
+	width: 50%;
+	border-radius: 3px;
+}
+
+.link{
+	margin-top: 65px;
+	margin-left: 0;
+	text-align: center;
+	padding-bottom: 1px;
+}
+.link i{
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.link a{
+	text-decoration: none;
+	color: white;
+
+}
+
+hr{
+	border-bottom: 0px #9da9b9;
+	border-top: 1px dashed #9da9b9;
+}
+
+
+.sub-header{
+	padding: 15px;
+}
+.sub-header img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	float: left;
+}
+.sub-header input[type=search]{
+	margin-left: 10px;
+	background-color: rgb(255, 255, 255, 0.1);
+	width: 80%;
+	height: 40px;
+	outline: none;
+	color: white;
+	border-radius: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	border: none;
+
+}
+.sub-header i{
+	float: right;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.u-search{
+	width: 100%;
+	text-align: center;
+}
+.u-search p{ 
+	padding: 15px; 
+	margin-right: 7%; 
+	font-size: 13px;
+	
+	display: inline-block;
+}
+.u-search img{
+	width: 12%;
+}
+
+.story{
+	display: inline-block;
+	padding: 15px;
+}
+.story h5{
+	padding-bottom: 5px;
+}
+.story1 {
+	background-color: rgb(255, 255, 255, 0.1);
+	height: 100%;
+	border-radius: 10px;
+	display: inline-block;
+	
+}
+.story1 img{
+	height: 80px;
+	border-radius: 10px 10px 0px 0px;
+
+
+}
+.story2{
+	background-color: rgb(255, 255, 255, 0.1);
+	height: 100%;
+	border-radius: 10px;
+	display: inline-block;
+}
+.story2 img{
+	height: 80px;
+	border-radius: 10px 10px 0px 0px;
+
+}
+.story1 h5{
+	font-size: 11px;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 17px;
+}
+.story2 h5{
+	font-size: 11px;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 17px;
+}
+.new-post input[type=submit]{
+	background-color: #357EC7;
+	background: transparent;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 0px 6px;
+	border: 1px solid #3895D3;
+	border-radius: 15px;
+	width: 70px;
+	height: 25px;
+	color: white;
+	cursor: pointer;
+	margin-left: 42%;
+	font-size: 12px;
+	outline: none;
+
+
+}
+.new-post input[type=submit]:hover {
+	background-color: #3895d3;
+	transition: 0.7s;
+	color: whitesmoke;
+}
+.color{
+	background-color: rgb(54, 54, 54, 0.1);
+}
+
+.post{
+	padding: 15px;
+}
+.post a{
+	text-decoration: none;
+	color: white;
+}
+.post img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+
+}
+.post input[type=submit]{
+	background-color: rgb(255, 255, 255, 0.1);
+	margin-bottom: -7px;
+	border: 1px solid rgb(255, 255, 255, 0.1);
+	border-radius: 15px;
+	width: 30%;
+	height: 26px;
+	color: white;
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 12px;
+	outline: none;
+
+}
+.post input[type=submit]:not(:last-child){
+	margin-right: 10px;
+}
+
+.post h4, h5{
+	margin-left: 45px;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.post h4{
+	font-weight: 700;
+}
+
+.request{
+	padding: 15px;
+}
+.request img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+.request input[type=submit]{
+	background-color: rgb(255, 255, 255, 0.1);
+	margin-bottom: -7px;
+	border: 1px solid rgb(255, 255, 255, 0.1);
+	border-radius: 5px;
+	width: 40%;
+	height: 22px;
+	color: white;
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 12px;
+	outline: none;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.request h5{
+	margin-left: 55px;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.request h4{
+	font-weight: 700;
+	margin-left: 55px;
+	font-size: 12px;
+	margin-top: 2px;
+
+}
+.request a{
+	text-decoration: none;
+	color: white;
+}
+
+.likes img{
+	position: absolute; 
+	margin-left: -8.5%; 
+	margin-top: 11px; 
+	width: 12px; 
+	height: 12px; 
+	cursor: pointer; 
+	border-radius: 0px;
+}
+
+
+.trends{
+	color: white;
+	margin-top: 25px;
+	border-radius: 15px;
+	margin-left: -20px;
+}
+.birthdays{
+	color: white;
+	margin-top: 25px;
+	border-radius: 15px;
+	margin-left: -20px;
+	border: 1px solid rgb(255, 255, 255, 0.2);
+}
+.birthdays h4{
+	text-align: left;
+	padding: 15px;
+	font-size: 14px;
+}
+.birthdays p{
+	font-size: 13px;
+}
+.trends h4{
+	text-align: left;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.trending {
+	padding: 15px;
+	margin-top: -10px;
+}
+
+.trending p{
+	margin-top: 10px;
+	font-size: 13px;
+}
+.trending a{
+	text-decoration: none;
+	color: white;
+}
+.trending img{
+	border-radius: 25px;
+	width: 35px;
+	float: left;
+	margin-right: 12px;
+	margin-top: 0px;
+}
+.left-side input[type=submit]{
+	margin-top: 30px;
+	width: 90%;
+	height: 25px;
+	background-color: rgb(255, 255, 255, 0.4);
+	border-radius: 12px;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+
+.image-message{
+	margin-top: 40px;
+}
+.image-message img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 5px;
+}
+.list-message img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+	
+}
+.list-message a{
+	text-decoration: none;
+	color: white;
+}
+.list-message{
+	padding: 15px;
+}
+.list-message .texts{
+	display: inline-block;
+}
+.texts h4{
+	margin-top: 3px;
+	margin-left: 10px;
+}
+.list-message {
+	font-size: 12px;
+}
+.onlines{
+	width: 9px;
+	height: 9px;
+	background-color: limegreen;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 28px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+.onlines1{
+	width: 9px;
+	height: 9px;
+	background-color: limegreen;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: -10px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+.onlines12{
+	font-size: 8px;
+	color: limegreen;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: -12px;
+	margin-top: 30px;
+	border: 1px solid black;
+}
+.onlines2{
+	font-size: 8px;
+	color: limegreen;
+	border-radius: 50%;
+	margin-left: 20px;
+	position: absolute;
+	margin-top: 28px;
+	border: 1px solid black;
+	background-color: black;
+}
+
+
+@media (max-width: 800px){
+
+nav{
+	background-color: rgb(255, 255, 255, 0.1);
+	width: 100%;
+}
+.head-text{
+	padding: 15px;
+	
+}
+.head-text h5{
+	float: left;
+	margin-left: 15px;
+	font-size: 15px;
+	margin-top: 4px;
+	font-weight: 400;
+	
+}
+.head-text .top-button{
+	float: right;
+	margin-right: 15px;
+	padding-bottom: 10px;
+}
+.top-button input[type=submit]{
+	border: 1px solid white;
+	background-color: #1b1e23;
+	background: transparent;
+	padding: 6px;
+	padding-right: 13px;
+	padding-left: 15px;
+	color: white;
+	border-radius: 3px;
+	margin-right: 6px;
+	cursor: pointer;
+}
+.top-button i{
+	margin-right: -14px;
+	font-size: 10px;
+}
+
+.header{
+	padding: 15px;
+}
+.header h4{
+	font-size: 27px;
+	float: left;
+}
+.header-right {
+	float: right;
+	margin-top: -3px;
+}
+.header-right i{
+	background-color: rgb(255, 255, 255, 0.1);
+	padding: 10px;
+	border-radius: 50px;
+	margin-right: 10px;
+	font-size: 15px;
+
+}
+.header-right a{
+	text-decoration: none;
+	color: white;
+}
+
+.link{
+	margin-top: 65px;
+	margin-left: 0;
+	text-align: center;
+	padding-bottom: 1px;
+}
+.link i{
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.link a{
+	text-decoration: none;
+	color: white;
+
+}
+
+hr{
+	border-bottom: 0px #9da9b9;
+	border-top: 1px dashed #9da9b9;
+}
+
+
+.sub-header{
+	padding: 15px;
+}
+.sub-header img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	float: left;
+}
+.sub-header input[type=search]{
+	margin-left: 10px;
+	background-color: rgb(255, 255, 255, 0.1);
+	width: 80%;
+	height: 40px;
+	outline: none;
+	color: white;
+	border-radius: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	border: none;
+
+}
+.sub-header i{
+	float: right;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.u-search{
+	width: 100%;
+	text-align: center;
+}
+.u-search p{ 
+	padding: 15px; 
+	margin-right: 7%; 
+	font-size: 13px;
+	
+	display: inline-block;
+}
+.u-search img{
+	width: 12%;
+}
+
+.story{
+	display: inline-block;
+	padding: 15px;
+}
+.story h5{
+	padding-bottom: 5px;
+}
+.story1 {
+	background-color: rgb(255, 255, 255, 0.1);
+	height: 100%;
+	border-radius: 10px;
+	display: inline-block;
+	
+}
+.story1 img{
+	height: 80px;
+	border-radius: 10px 10px 0px 0px;
+
+
+}
+.story2{
+	background-color: rgb(255, 255, 255, 0.1);
+	height: 100%;
+	border-radius: 10px;
+	display: inline-block;
+}
+.story2 img{
+	height: 80px;
+	border-radius: 10px 10px 0px 0px;
+
+}
+.story1 h5{
+	font-size: 11px;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 17px;
+}
+.story2 h5{
+	font-size: 11px;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 17px;
+}
+.new-post input[type=submit]{
+	background-color: #357EC7;
+	background: transparent;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 0px 6px;
+	border: 1px solid #3895D3;
+	border-radius: 15px;
+	width: 70px;
+	height: 25px;
+	color: white;
+	cursor: pointer;
+	margin-left: 42%;
+	font-size: 12px;
+	outline: none;
+
+
+}
+.new-post input[type=submit]:hover {
+	background-color: #3895d3;
+	transition: 0.7s;
+	color: whitesmoke;
+}
+.color{
+	background-color: rgb(54, 54, 54, 0.1);
+}
+
+.post{
+	padding: 15px;
+}
+.post img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+
+}
+
+.post input[type=submit]{
+	background-color: rgb(255, 255, 255, 0.1);
+	margin-bottom: -7px;
+	border: 1px solid rgb(255, 255, 255, 0.1);
+	border-radius: 15px;
+	width: 30%;
+	height: 26px;
+	color: white;
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 12px;
+	outline: none;
+
+}
+.post input[type=submit]:not(:last-child){
+	margin-right: 10px;
+}
+
+.post h4, h5{
+	margin-left: 45px;
+	font-size: 12px;
+	margin-top: 2px;
+}
+.post h4{
+	font-weight: 700;
+}
+.left{
+		display: none;
+	}
+.left-side{
+	display: none;
+}
+.right-side{
+	display: none;
+}
+.main-content{
+	width: 100%;
+}
+.likes img{
+	position: absolute; 
+	margin-left: -18%; 
+	margin-top: 11px; 
+	width: 12px; 
+	height: 12px; 
+	cursor: pointer; 
+	border-radius: 0px;
+}
+
+}
+
+@media (min-width: 800px){
+	nav{
+		display: none;
+	}
+
+
+
+}
